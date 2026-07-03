@@ -66,6 +66,9 @@ body {
 }
 
 .card__btn-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 302px;
   height: 45px;
   background-color: var(--cl-gray-700);
@@ -76,6 +79,11 @@ body {
 .card__link-social {
   text-decoration: none;
   color: var(--cl-white);
+}
+
+.card__link-social:hover,
+.card__link-social:focus {
+  color: var(--cl-green);
 }
 
 .card__container-socials {
